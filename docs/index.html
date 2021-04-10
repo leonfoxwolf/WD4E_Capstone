@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The land of the rising sun</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="img/japan.svg" type="image/x-icon">
+        <script src = "js/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>The land of the rising sun</h1>
+        </header>
+        <main>
+            <img src="img/chureito_pagoda.jpg" alt="Chureito Pagoda and mount Fuji" title="Chureito Pagoda and mount Fuji" class="index_img">
+            <span class="mobile">
+                <p class="index_paragraph" id="welcoming_message_short">Welcome to the site dedicated to the history and culture of Japan! You can dive directly to its content via menu below. But before, please <span class="intext_button" onclick="expandMessage()">a quick foreword of its developer</span>.</p>
+                <p class="index_paragraph index_paragraph_hidden" id="welcoming_message_long">Hi! I am Konstantin Nikulin. I am a long-time fan of Japan. Ever since the school I was fond of this eastern culture. I even created a site dedicated to Japan as a junior high school examination work for my computer class back at 2003. Now I wanted to recreate it with all my knowledge I gained during my “Web design for Everyone” course at Coursera. You can compare this version of the site to its initial state using links in the footer.<br>Japan is a marvelous multi-faceted country. Despite the site intended to be as a technical demo, I hope you can find a lot of interesting information about “The land of the rising sun”.<br><span class="intext_button" onclick="collapseMessage()">collapse message</span></p>                   
+            </span>
+            <span class="desktop">
+                <p class="index_paragraph">Hi! I am Konstantin Nikulin. I am a long-time fan of Japan. Ever since the school I was fond of this eastern culture. I even created a site dedicated to Japan as a junior high school examination work for my computer class back at 2003. Now I wanted to recreate it with all my knowledge I gained during my “Web design for Everyone” course at Coursera. You can compare this version of the site to its initial state using links in the footer.</p>
+                <p class="index_paragraph">Japan is a marvelous multi-faceted country. Despite the site intended to be as a technical demo, I hope you can find a lot of interesting information about “The land of the rising sun”.</p>
+            </span>
+            <nav>
+                <span class="mobile">
+                    <div class="container">
+                        <div class="carousel slide" id="main-carousel" data-ride="carousel" data-interval="false">                  
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <span class="d-block img-fluid nav_box geography">
+                                        <a href="pages/geography.html" class="nav_box_text">Geo<br>gra<br>phy</a>
+                                    </span>  
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="d-block img-fluid nav_box history">
+                                        <a href="pages/history.html" class="nav_box_text">His<br>tory</a>
+                                    </span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="d-block img-fluid nav_box language">
+                                        <a href="pages/language.html" class="nav_box_text">Lan<br>gua<br>ge</a>
+                                    </span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="d-block img-fluid nav_box art">
+                                        <a href="pages/art.html" class="nav_box_text">Art</a>
+                                    </span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="d-block img-fluid nav_box today">
+                                        <a href="pages/today.html" class="nav_box_text">To<br>day</a>
+                                    </span> 
+                                </div>
+                            </div>
+                            <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only" aria-hidden="true">Prev</span>
+                            </a>
+                            <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only" aria-hidden="true">Next</span>
+                            </a>
+                        </div>
+                    </div>    
+                </span>
+                <span class="desktop">
+                    <span class="nav_box desktop geography">
+                        <a href="pages/geography.html" class="nav_box_text">Geo<br>gra<br>phy</a>
+                    </span>            
+                    <span class="nav_box desktop history">
+                        <a href="pages/history.html" class="nav_box_text">His<br>tory</a>
+                    </span>
+                    <span class="nav_box desktop language">
+                        <a href="pages/language.html" class="nav_box_text">Lan<br>gua<br>ge</a>
+                    </span>
+                    <span class="nav_box desktop art">
+                        <a href="pages/art.html" class="nav_box_text">Art</a>
+                    </span>
+                    <span class="nav_box desktop today">
+                        <a href="pages/today.html" class="nav_box_text">To<br>day</a>
+                    </span>  
+                </span> 
+            </nav>
+        </main>
+        <span class="footer_menu_collapsed" id="footer_menu">
+            <span class="footer_additional_block">
+                <p class="footer_additional_text">&copy 2021. Developed by Konstantin Nikulin</p>
+                <p class="footer_additional_text horizontal_divider">The site was prepares as a capstone project for “Web Design for Everybody” course on Coursera. All materials was used for educational purposes.</p>
+                <p class="footer_additional_text">This site is a redesign of examination work I created back at 2003 at junior high school.</p>
+                <p class="footer_additional_text">You can compare the difference between versions:</p>
+                <p class="footer_additional_text inactive_link">2021 version</p>
+                <a href="rev_1/index.html" class="footer_additional_text active_link">2003 version</a>
+                <a href="rev_2/index.html" class="footer_additional_text active_link">2004 version</a> 
+            </span>
+        </span> 
+        <footer>
+            <span id="mobile_footer">
+                <span class="footer_block_first">
+                    <p class="footer_text">&copy 2021</p>
+                    <p class="footer_text">Konstantin Nikulin</p>                   
+                </span>           
+                <span class="footer_block_last">
+                    <a href="https://www.linkedin.com/in/k2nikulin" class="linkedin_link" ></a>  
+                    <a href="https://www.facebook.com/k2.nikulin" class="facebook_link" ></a>
+                    <span class="additional_info" onclick="expandFooterMenu()" id="footer_menu_button"></span>                   
+                </span>
+            </span>
+            <section id="desktop_footer">
+                <span class="footer_block_first">
+                    <p class="footer_text">&copy 2021. Developed by Konstantin Nikulin</p>
+                    <p class="footer_text">The site was prepares as a capstone project for “Web Design for Everybody”</p>
+                    <p class="footer_text">course on Coursera. All materials was used for educational purposes.</p>                    
+                </span>
+                <span class="footer_block_second">
+                    <p class="footer_text">Compare with the versions I developed at junior high school:</p>
+                    <p class="footer_text inactive_link">2021 version | <a href="rev_1/index.html" class="active_link">2003 version</a> | <a href="rev_2/index.html" class="active_link">2004 version</a></p>                
+                </span>                
+                <span class="footer_block_last">
+                    <a href="https://www.linkedin.com/in/k2nikulin" class="linkedin_link" ></a>  
+                    <a href="https://www.facebook.com/k2.nikulin" class="facebook_link" ></a>                    
+                </span>
+            </section>
+        </footer> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
