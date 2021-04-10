@@ -1,0 +1,236 @@
+<html lang="en">
+    <!--
+        I was developing this site during 2003 with a book covering HTML3 that I had at my disposal plus I was using Macromedia Dreamweaver to help me with JS. At that time I was unaware of the DOCTYPE. However, implementing it now crashes my JS that I used in this page which, alas, is using some deprecated methods.
+    -->
+    <head>
+        <title>The country of ascending sun</title>
+        <script language="JavaScript">
+            function MM_findObj(n, d) {
+                var p,i,x;  
+                if(!d) d=document; 
+                if((p=n.indexOf("?"))>0&&parent.frames.length) {
+                    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);
+                }
+                if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+                for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+            }
+            function MM_swapImage() {
+                var i,j=0,x,a=MM_swapImage.arguments; 
+                document.MM_sr=new Array; 
+                for(i=0;i<(a.length-2);i+=3) if ((x=MM_findObj(a[i]))!=null) {
+                    document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];
+                }
+            }
+            function MM_swapImgRestore() {
+                var i,x,a=document.MM_sr; 
+                for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+            }
+            function MM_preloadImages() { 
+                var d=document; 
+                if(d.images) { 
+                    if(!d.MM_p) d.MM_p=new Array();
+                    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; 
+                    for(i=0; i<a.length; i++) if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];
+                    }
+                }
+            }
+        </script>
+        <script language="JavaScript1.2" src="js/fw_menu.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <!-- Below are the links for newly embedded footer to work -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        <script src = "../js/scripts.js"></script>
+
+    </head>    
+    <body background="img/background.jpg" onLoad="MM_preloadImages('menu_geography_active.gif','menu_history_active.gif','menu_language_active.gif','menu_ikebana_active.gif','menu_bonsai_active.gif','menu_cinema_active.gif','menu_martial_active.gif','menu_tea_active.gif','menu_cities_active','menu_sources_active.gif');">
+        <main>
+            <img src="img/japan.jpg" style="margin-top:-5px" alt="Japan - The country of ascending sun">
+            <table width="993px" border="0px" cellpadding="0px" cellspacing="0px" style="margin-left:-10px">
+                <tr>
+                    <td rowspan="2">
+                        <table border="0px" cellpadding="0px" cellspacing="0px" width="253px">
+                            <tr>
+                                <td colspan="2">
+                                    <img name="menu_title" src="img/menu/menu_title.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">
+                                    <a href="pages/geography.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('geography','','img/menu/menu_geography_active.gif',1);" ><img name="geography" src="img/menu/menu_geography.gif" border="0px"></a>
+                                </td>
+                                <td rowspan="21">
+                                    <img name="HPolosa" src="img/menu/menu_divider_vertical.gif">
+                                </td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_1" src="img/menu/menu_divider_1.gif" height="2px" width="252px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/history.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('history','','img/menu/menu_history_active.gif',1);" ><img name="history" src="img/menu/menu_history.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_1" src="img/menu/menu_divider_1.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/language.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('language','','img/menu/menu_language_active.gif',1);" ><img name="language" src="img/menu/menu_language.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="traditions" src="img/menu/menu_traditions.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/art_ikebana.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('ikebana','','img/menu/menu_ikebana_active.gif',1);"><img name="ikebana" src="img/menu/menu_ikebana.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_1" src="img/menu/menu_divider_1.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/art_bonsai.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('bonsai','','img/menu/menu_bonsai_active.gif',1);" ><img name="bonsai" src="img/menu/menu_bonsai.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_1" src="img/menu/menu_divider_1.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/art_cinema.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('cinema','','img/menu/menu_cinema_active.gif',1);"><img name="cinema" src="img/menu/menu_cinema.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_1" src="img/menu/menu_divider_1.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/art_martial.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('martial','','img/menu/menu_martial_active.gif',1);"><img name="martial" src="img/menu/menu_martial.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_1" src="img/menu/menu_divider_1.gif" width="252px" height="4px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/art_tea.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('tea','','img/menu/menu_tea_active.gif',1);"><img name="tea" src="img/menu/menu_tea.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="today" src="img/menu/menu_today.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/today_cities.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('cities','','img/menu/menu_cities_active',1);"><img name="cities" src="img/menu/menu_cities.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_2" src="img/menu/menu_divider_2.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="pages/sources.html" onmouseout="MM_swapImgRestore();"  onmouseover="MM_swapImage('sources','','img/menu/menu_sources_active.gif',1);"><img name="sources" src="img/menu/menu_sources.gif" border="0px"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="divider_3" src="img/menu/menu_divider_3.gif">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td valign="top">
+                        <hr color="#CC143C" size="3pt" width="734px" shade align="center">
+                        <img src="img/title.gif" align="right" border="1" title="Title">
+                        <p style="margin-top:70px;">Hello dear visitor of this site! I am glad to welcome you to my humble page dedicated, as you can see from the name, to Japan. Here I tried to collect various information about this far from us, but not from our borders, the country of the East, about its way of life, history, traditions and assets. Unfortunately, the site is partially under construction, therefore there is only a small part of the maximum that is ideally planned. Japan is a very interesting and multifaceted state: on the one hand, these are the most modern microtechnologies, and on the other, these are ancient traditions, martial arts and, all over the world, famous samurai.</p>
+                    </td>
+                </tr>
+            </table>
+            <hr color="#CC143C" size="3pt" width="983px" shade align="center">
+            <table>
+                <tr>
+                    <td>
+                        <center><img src="img/mount_fuji.jpg" alt="Mount Fuji"></center>
+                    </td>
+                </tr>
+            </table>
+            <hr color="#000000" size="2pt" width="983px" noshade>
+            <table width="983px">
+                <tr>
+                    <td>
+                        <a href="https://schc518.mskobr.ru/"><img src="img/school.gif" alt="Link to a school #518 site"></a>
+                    </td>
+                    <td>
+                        <h6>2003. Current page was developed as an examination work for a computer class by Konstantin Nikulin (9<sup>th</sup> grade). School #518.</h6>
+                        <h6>2004. The site was revisited and tweaked a bit for publishing on internet.</h6>
+                        <h6>2020. The HTML code was restructured and adapted as a part of Web Design for Everyone Capstone Course to perform as a baseline for evaluating my skills after the course (and 17 years).</h6>
+                    </td>
+                </tr>
+            </table>
+            <hr color="#000000" size="2pt" width="983px" noshade>
+        </main>
+                        
+        <span class="footer_menu_collapsed" id="footer_menu">
+            <span class="footer_additional_block">
+                <p class="footer_additional_text">&copy 2021. Developed by Konstantin Nikulin</p>
+                <p class="footer_additional_text horizontal_divider">The site was prepares as a capstone project for “Web Design for Everybody” course on Coursera. All materials was used for educational purposes.</p>
+                <p class="footer_additional_text">This site is a redesign of examination work I created back at 2003 at junior high school.</p>
+                <p class="footer_additional_text">You can compare the difference between versions:</p>
+                <a href="../index.html" class="footer_additional_text active_link">2021 version</a>
+                <a href="../rev_1/index.html" class="footer_additional_text active_link">2003 version</a>
+                <p class="footer_additional_text inactive_link">2004 version</p>
+            </span>
+        </span> 
+        <footer>
+            <span id="mobile_footer">
+                <span class="footer_block_first">
+                    <p class="footer_text">&copy 2020</p>
+                    <p class="footer_text">Konstantin Nikulin</p>                   
+                </span>           
+                <span class="footer_block_last">
+                    <a href="https://www.linkedin.com/in/k2nikulin" class="linkedin_link" ></a>  
+                    <a href="https://www.facebook.com/k2.nikulin" class="facebook_link" ></a>
+                    <span class="additional_info" onclick="expandFooterMenuChild()" id="footer_menu_button"></span>                   
+                </span>
+            </span>
+            <section id="desktop_footer">
+                <span class="footer_block_first">
+                    <p class="footer_text">&copy 2021. Developed by Konstantin Nikulin</p>
+                    <p class="footer_text">The site was prepares as a capstone project for “Web Design for Everybody”</p>
+                    <p class="footer_text">course on Coursera. All materials was used for educational purposes.</p>                    
+                </span>
+                <span class="footer_block_second">
+                    <p class="footer_text">Compare with the versions I developed at junior high school:</p>
+                    <p class="footer_text inactive_link"><a href="../index.html" class="active_link">2021 version</a> | <a href="../rev_1/index.html" class="active_link">2003 version</a> | 2004 version</p>                
+                </span>                
+                <span class="footer_block_last">
+                    <a href="https://www.linkedin.com/in/k2nikulin" class="linkedin_link" ></a>  
+                    <a href="https://www.facebook.com/k2.nikulin" class="facebook_link" ></a>                    
+                </span>
+            </section>
+        </footer>
+    </body>
+</html>

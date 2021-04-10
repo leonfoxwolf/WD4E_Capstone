@@ -1,0 +1,116 @@
+/* Minimal resolution screen with fluid measurements */
+
+table{
+    line-height: 170%;
+    border-collapse: collapse;
+    width: 89vw;
+    margin: 15px 15px 20px 15px;
+}    
+th {
+    font-family: AndikaNew, Arial, Helvetica, sans-serif;
+    font-size: 2.3vh;
+    background-color: #0E0D0A;
+    border-bottom: 5px solid #F5832F;
+    color: #F5832F;
+    font-weight: 600;
+    border-right: 2px dotted #C29BAC;
+}    
+tr th:first-child {
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border-right: 2px dotted #C29BAC;
+}    
+tr th:last-child {
+    border-radius: 0px 10px 0px 0px;
+    border-right: none;
+}    
+tr td:first-child {
+    text-align: left;
+    background-color: #FEFAFF;
+    padding-left: 10px;
+    line-height: 250%;
+    border-left: none;
+    font-family: AndikaNew, Arial, Helvetica, sans-serif;
+    font-size: 2.3vh;
+}    
+tr td {
+    text-align: center;
+    background-color: #FEFAFF;
+    border-left: 2px dotted #C29BAC;
+    border-top: 2px dotted #C29BAC;
+}    
+table tr:first-child {
+    opacity: 1;
+}    
+table tr {
+    opacity: .69;
+}    
+tr:hover {
+    opacity: 1;
+}
+
+/* Medium resolution screen with blank margin spaces */
+
+@media (min-width: 512px) {
+    table{
+        margin: 0 calc(50% - 256px + 15px);
+        width: 482px;
+    } 
+}
+
+/* Maximum resolution screen with blank margin spaces */
+
+@media (min-width: 1024px) {
+    table{
+        padding-left: 1%;
+        line-height: 170%;
+        border-collapse: collapse;
+        margin: 0 0 15px 0;
+        width: 100%;
+    }    
+    th {
+        font-family: AndikaNew, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        background-color: #0E0D0A;
+        border-width: 50px;
+        border-bottom: 5px solid #F5832F;
+        color: #F5832F;
+        font-weight: 600;
+        border-right: 2px dotted #C29BAC;
+    }    
+    tr th:first-child {
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 10px 0px 0px 0px;
+        border-right: 2px dotted #C29BAC;
+    }    
+    tr th:last-child {
+        border-radius: 0px 10px 0px 0px;
+        border-right: none;
+    }    
+    tr td:first-child {
+        text-align: left;
+        background-color: #FEFAFF;
+        padding-left: 10px;
+        line-height: 250%;
+        border-left: none;
+        font-family: AndikaNew, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }    
+    tr td {
+        text-align: center;
+        background-color: #FEFAFF;
+        border-left: 2px dotted #C29BAC;
+        border-top: 2px dotted #C29BAC;
+    }    
+    table tr:first-child {
+        opacity: 1;
+    }    
+    table tr {
+        opacity: .69;
+    }    
+    tr:hover {
+        opacity: 1;
+    }
+}
